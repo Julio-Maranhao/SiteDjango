@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
+import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +23,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-n$+d-b(sgp=-a73ox8%+3(0@=ymkmq=i%t0q-)3w61@q#u*9__'
+
+DEPLOY_SITE_DOMAIN = 'SEU SITE AQUI'  # Coloque o dominio do seu site aqui
+
+TOKEN_CSRF = os.getenv('TOKEN_CSRF')  # pegar do ambiente criado na nuvem a variavel TOKEN_CSRF
+if TOKEN_CSRF:
+    SECRET_KEY = TOKEN_CSRF
+    CSRF_TRUSTED_ORIGINS = [DEPLOY_SITE_DOMAIN]
+else:
+    SECRET_KEY = 'django-insecure-n$+d-b(sgp=-a73ox8%+3(0@=ymkmq=i%t0q-)3w61@q#u*9__'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [DEPLOY_SITE_DOMAIN, "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -87,9 +98,6 @@ DATABASES = {
 }
 
 # USE FOR DEPLOY
-import dj_database_url
-import os
-
 DATABASE_URL = os.getenv('DATABASE_URL')
 if DATABASE_URL:
     DATABASES = {
