@@ -25,6 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 DEPLOY_SITE_DOMAIN = 'SEU SITE AQUI'  # Coloque o dominio do seu site aqui
+COMPLETE_DEPLOY_SITE = "http:// SEU SITE AQUI" # Coloque o dominio do seu site aqui completo 'http://seu dominio'
 
 TOKEN_CSRF = os.getenv('TOKEN_CSRF')  # pegar do ambiente criado na nuvem a variavel TOKEN_CSRF
 if TOKEN_CSRF:
@@ -36,7 +37,7 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [DEPLOY_SITE_DOMAIN, "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = [COMPLETE_DEPLOY_SITE, "localhost", "127.0.0.1"]
 
 
 # Application definition
