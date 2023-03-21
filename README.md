@@ -20,7 +20,7 @@ print(User.Skills)
 ```
 #### Coding Level:
 
-[<img src="https://icons8.com.br/icon/13441/python">](https://icons8.com.br/icon/13441/python)  &emsp; 7:star:/10:star:
+[<img src="[https://icons8.com.br/icon/13441/python](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickpng.com%2Fpt-br%2Fimg%2Ficones-logos-emojis%2Fmarcas-iconicas%2Flogotipo-python&psig=AOvVaw1s1Xi0mXPAl3o6y027txey&ust=1679499234776000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjwnays7f0CFQAAAAAdAAAAABAJ)">]([https://icons8.com.br/icon/13441/python](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickpng.com%2Fpt-br%2Fimg%2Ficones-logos-emojis%2Fmarcas-iconicas%2Flogotipo-python&psig=AOvVaw1s1Xi0mXPAl3o6y027txey&ust=1679499234776000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjwnays7f0CFQAAAAAdAAAAABAJ))  &emsp; 7:star:/10:star:
 
 [<img src="https://icons8.com.br/icon/PXTY4q2Sq2lG/javascript">](https://icons8.com.br/icon/PXTY4q2Sq2lG/javascript)  &emsp; 2:star:/10:star:
 
