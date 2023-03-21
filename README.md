@@ -20,7 +20,7 @@ print(User.Skills)
 ```
 #### Coding Level:
 
-<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/python.png height='50 px'">  &emsp; 7:star:/10:star:
+[<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/python.png" height="50 px">]([https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/javascript.png](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/python.png)  &emsp; 7:star:/10:star:
 
 [<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/javascript.png height='50 px'">](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/javascript.png)  &emsp; 2:star:/10:star:
 
