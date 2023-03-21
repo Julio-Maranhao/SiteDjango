@@ -20,12 +20,12 @@ print(User.Skills)
 ```
 #### Coding Level:
 
-[<img src="https://icons8.com.br/icon/13441/python">](https://icons8.com.br/icon/13441/python)  &emsp; 7:star:/10:star:
+[<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/python.png">](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/python.png)  &emsp; 7:star:/10:star:
 
-[<img src="https://icons8.com.br/icon/PXTY4q2Sq2lG/javascript">](https://icons8.com.br/icon/PXTY4q2Sq2lG/javascript)  &emsp; 2:star:/10:star:
+[<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/javascript.png">](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/javascript.png)  &emsp; 2:star:/10:star:
 
-[<img src="https://icons8.com.br/icon/UFF3hmipmJ2V/sql">](https://icons8.com.br/icon/UFF3hmipmJ2V/sql)  &emsp; 2:star:/10:star:
+[<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/sql.png">](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/sql.png)  &emsp; 2:star:/10:star:
 
-[<img src="https://icons8.com.br/icon/IuuVVwsdTi2v/django-a-high-level-python-web-framework-that-encourages-rapid-development">](https://icons8.com.br/icon/IuuVVwsdTi2v/django-a-high-level-python-web-framework-that-encourages-rapid-development)  &emsp; 4:star:/10:star:
+[<img src="https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/django.png">](https://github.com/Julio-Maranhao/SiteDjango/blob/master/readme_static/django.png)  &emsp; 4:star:/10:star:
 
 
